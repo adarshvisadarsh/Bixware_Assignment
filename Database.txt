@@ -1,0 +1,15 @@
+
+CREATE TABLE Claims (
+  id INT PRIMARY KEY IDENTITY(1,1),
+  employeeName VARCHAR(100),
+  employeeCode VARCHAR(50),
+  designation VARCHAR(50),
+  department VARCHAR(100),
+  expenseCategory VARCHAR(50),
+  expenseSubcategory VARCHAR(255),
+  claimAmount INT,
+  expenseDate DATE,
+  expenseLocation VARCHAR(100),
+  billAttachment VARCHAR(255),
+  remarks VARCHAR(255)
+);
